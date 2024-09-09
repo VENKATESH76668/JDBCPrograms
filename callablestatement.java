@@ -52,7 +52,7 @@ public class callablestatement {
 		} catch (SQLException e) {
 			e.printStackTrace();
 		}finally {
-			scanner.close();
+			
 			JdbcUtility.close(connection, callablestatement);
 		}
 		
